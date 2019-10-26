@@ -8,20 +8,20 @@ Dado("que eu realize o login") do
 end
 
 Quando("eu clico no iconi do SGR") do
- 	click_on 'MARKETPLACE'
-
+click_on 'SGR'
 end
 
 Quando("clico no iconi do menu") do
- click_button 'i'
+	find(:css, ".btn").click 
 end
 
 Quando("clico em na opção processo") do
-  pending # Write code here that turns the phrase above into concrete actions
+ find(:xpath, '//*[@id="headingMenuProcessos"]/div/div[1]/span').click 
+
 end
 
 Quando("clico em credenciamento Nova Unidade") do
-  pending # Write code here that turns the phrase above into concrete actions
+	click_on ' Credenciamento Nova Unidade '
 end
 
 Quando("seleciono Tipo de Solicitante") do
