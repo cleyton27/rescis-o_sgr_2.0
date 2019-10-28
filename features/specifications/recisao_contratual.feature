@@ -17,7 +17,13 @@ Funcionalidade: Realizar um recissao contratual irevercivel
 
 		E seleciono o Tipo de Solicitacao
 
+		E seleciono o Motivo da Solicitacao
+	
 		E pesquiso o estabelecimento clicando no iconi da lupa azul
+
+		E insiro o codigo do estabelecimento e clico no botao pesquisar
+	
+		E clico na POS que eu queira remover
 
 		E preencho os campos contato e telefone
 	
